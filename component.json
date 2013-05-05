@@ -1,0 +1,39 @@
+{
+  "name": "prelude-ls",
+  "version": "0.7.0-dev",
+  "author": "George Zahariev <z@georgezahariev.com>",
+  "description": "prelude.ls is a JavaScript functional programming library. It is the recommended base library for, and is written in, LiveScript. It is inspired in part by Haskell's Prelude module, and other utility libraries.",
+  "keywords": [
+    "prelude",
+    "livescript",
+    "ls",
+    "coffeescript",
+    "javascript",
+    "library",
+    "functional",
+    "array",
+    "collection",
+    "utility"
+  ],
+  "scripts": [
+    "lib/Func.js",
+    "lib/List.js",
+    "lib/Num.js",
+    "lib/Obj.js",
+    "lib/Prelude.js",
+    "lib/Str.js"
+  ],
+  "main": "./lib/Prelude.js",
+  "homepage": "http://gkz.github.com/prelude-ls/",
+  "bugs": "https://github.com/gkz/prelude-ls/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/gkz/prelude-ls/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gkz/prelude-ls.git"
+  }
+}
